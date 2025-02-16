@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+nav {
+    background-color: #f8c8d8;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.sticky-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.sticky-nav ul li {
+    margin: 10px;
+}
+
+.sticky-nav ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: white;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+.sticky-nav ul li a:hover {
+    background-color: #f0b0c0;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f2e4e9;
+    padding: 50px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.hero-text {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.hero .cta {
+    background-color: #d48b94;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero .cta:hover {
+    background-color: #bf7c84;
+}
+
+/* About Section */
+.about {
+    background-color: #e9d8df;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: 1em;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.about .cta {
+    background-color: #d48b94;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.about .cta:hover {
+    background-color: #bf7c84;
+}
+
+/* Pain Points Section */
+.pain-points {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2e4e9;
+    padding: 50px 20px;
+    gap: 20px;
+}
+
+.pain-points img {
+    width: 45%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.pain-points div {
+    width: 45%;
+    max-width: 500px;
+}
+
+.pain-points h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.pain-points p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.pain-points .cta {
+    background-color: #d48b94;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pain-points .cta:hover {
+    background-color: #bf7c84;
+}
+
+/* Projects Section */
+.projects {
+    background-color: #e9d8df;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.projects .project-item {
+    display: inline-block;
+    width: 90%;
+    max-width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.projects .project-item:hover {
+    transform: translateY(-10px);
+}
+
+.projects .project-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.projects .project-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.projects .project-item p {
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+
+.projects .project-item .cta {
+    background-color: #d48b94;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.projects .project-item .cta:hover {
+    background-color: #bf7c84;
+}
+
+/* Footer */
+footer {
+    background-color: #f8c8d8;
+    text-align: center;
+    padding: 5px;
+    color: #333;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+}
