@@ -1,32 +1,6 @@
-# Portfolio Website
+# Sai Keertana Gubbala
 
-This is a simple portfolio website designed to showcase skills, experiences, and projects in a clean, sleek, and modern aesthetic.
-
-## Project Structure
-
-The project is organized as follows:
-
-```
-portfolio-website
-├── src
-│   ├── index.html          # Main HTML document for the portfolio site
-│   ├── styles
-│   │   └── main.css       # CSS styles for the portfolio site
-│   ├── scripts
-│   │   └── main.js        # JavaScript for interactive functionality
-│   ├── pages
-│   │   ├── experience.html # Placeholder content for Experience section
-│   │   ├── projects.html   # Placeholder content for Projects section
-│   │   └── resume.html     # Placeholder content for Resume section
-├── package.json            # Configuration file for npm
-└── README.md               # Documentation for the project
-```
-
-## Features
-
-- Sticky navigation bar with a light pink background.
-- Navigation buttons for Experience, Projects, and Resume.
-- Each section has its own dedicated page with placeholder content.
+This is my simple 3-page portfolio website created to display my skills, and experince. Feel free to fork the repo and use it for your own purposes. Design was wireframed using Figma and layout inspiration from Pinterest. 
 
 ## Getting Started
 
@@ -44,10 +18,7 @@ To run the portfolio site locally, follow these steps:
 
 3. Open `src/index.html` in your web browser to view the portfolio site.
 
-## Customization
-
-Feel free to modify the styles in `src/styles/main.css` and the content in the HTML files located in the `src/pages` directory to personalize your portfolio.
-
-## License
-
-This project is open-source and available under the MIT License.
+4. Type in:
+   ```
+   npm start
+   ```
