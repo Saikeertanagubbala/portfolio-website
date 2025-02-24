@@ -7,4 +7,12 @@ document.addEventListener('DOMContentLoaded', function() {
             window.location.href = targetPage;
         });
     });
+
+    const cards = document.querySelectorAll('.card');
+
+    cards.forEach(card => {
+        card.addEventListener('click', function() {
+            card.classList.toggle('is-flipped');
+        });
+    });
 });
