@@ -18,7 +18,12 @@ To run the portfolio site locally, follow these steps:
 
 3. Open `src/index.html` in your web browser to view the portfolio site.
 
-4. Type in:
+4. Navigate to the terminal in the text editor of your choice and type:
    ```
    npm start
    ```
+
+### Connect with Me:
+Feel free to reach me at these links:
+LinkedIn:
+:email: gubbala.keertana@gmail.com 
