@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; 
     margin: 0;
     padding: 0;
 }
@@ -12,17 +12,14 @@ body, html {
     color: #333;
 }
 
-/* Navigation Styles */
 nav {
     background-color: #f8c8d8;
-    position: sticky;
     top: 0;
     width: 100%;
     padding: 10px 0;
     display: flex;
     justify-content: flex-end;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    z-index: 1000;
 }
 
 .sticky-nav ul {
@@ -30,8 +27,6 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin: 0;
-    padding: 0;
 }
 
 .sticky-nav ul li {
@@ -243,52 +238,61 @@ nav {
     margin-bottom: 30px;
 }
 
-.projects .project-item {
-    display: inline-block;
-    width: 90%;
+.projects-container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-item {
+    flex: 1 1 calc(33.333% - 40px);
     max-width: 250px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     padding: 20px;
-    margin: 10px;
     text-align: center;
     transition: transform 0.3s;
 }
 
-.projects .project-item:hover {
+.project-item:hover {
     transform: translateY(-10px);
 }
 
-.projects .project-item img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
 
-.projects .project-item h3 {
+.project-item h3 {
     font-size: 1.2em;
     margin-bottom: 10px;
 }
 
-.projects .project-item p {
+.project-item p {
     font-size: 0.9em;
     margin-bottom: 15px;
 }
 
-.projects .project-item .cta {
+/* See More Projects Button */
+.cta, .see-more-projects {
     background-color: #d48b94;
     color: white;
     border: none;
     border-radius: 20px;
-    padding: 5px 15px;
+    padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s;
+    text-decoration: none;
+    display: inline-block;
 }
 
-.projects .project-item .cta:hover {
+.cta:hover, .see-more-projects:hover {
     background-color: #bf7c84;
 }
+
+.see-more-projects {
+    margin-top: 40px;
+    font-size: 1em;
+}
+
 
 /* Footer */
 footer {
