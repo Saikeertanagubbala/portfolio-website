@@ -50,11 +50,11 @@ nav {
 /* Hero Section */
 .hero {
     background-color: #F6F0DF;
-    padding: 50px 10px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0px;
 }
 
 .hero-content {
@@ -68,7 +68,7 @@ nav {
 .hero-text {
     flex: 1;
     text-align: left;
-    padding-right: 70px;
+    padding-right: 90px;
 }
 
 .hero h1 {
@@ -79,12 +79,6 @@ nav {
 .hero p {
     font-size: 1.2em;
     margin-bottom: 20px;
-}
-
-.hero img {
-    width: 100%;
-    max-width: 650px;
-    border-radius: 30px;
 }
 
 .hero .cta {
@@ -204,8 +198,9 @@ nav {
 /* About Section */
 .about {
     background-color: #F6F0DF;
-    padding: 50px 20px;
+    padding: 0px 20px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .about h2 {
@@ -320,6 +315,7 @@ nav {
 .contact-link span {
     font-size: 1em;
     transition: color 0.3s;
+    
 }
 
 .contact-link:hover {
