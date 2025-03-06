@@ -12,33 +12,33 @@ body, html {
     color: #333;
 }
 
-nav {
+.sticky-nav { /*Specifications for navbar itself not buttons*/
+    position:fixed;
+    top:0;
     background-color: #344966; 
-    top: 0;
     width: 100%;
-    padding: 10px 0;
+    padding: 5px 0;
     display: flex;
     justify-content: flex-end;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.sticky-nav ul {
+.sticky-nav ul { /*Specifications for buttons location and making sure there's no bullet points*/
     list-style: none;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-
-.sticky-nav ul li {
+.sticky-nav ul li { /*Specifications for spacing between buttons*/
     margin: 10px;
 }
 
-.sticky-nav ul li a {
+.sticky-nav ul li a { /*Specifications for links to other pages aka the buttons*/
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 5px;
     color: #f2f2f2;
-    font-weight:600;
+    font-weight: 600;
     transition: background-color 0.3s;
 }
 
@@ -48,89 +48,72 @@ nav {
 }
 
 /* Hero Section */
-.hero {
+.hero {  /*Box for backkground section*/
     background-color: #F6F0DF;
-    text-align: center;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 0px;
 }
 
-.hero-content {
+.hero-content { /*Justifies content to middle and centered*/
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    max-width:fit-content;
 }
 
-.hero-text {
-    flex: 1;
+.hero-text { /*Specifications for text*/
     text-align: left;
-    padding-right: 90px;
+    padding-right: 100px;
 }
 
-.hero h1 {
+.hero h1 { /*Specifications for text h1*/
     font-size: 3em;
     margin-bottom: 10px;
 }
 
-.hero p {
+.hero p { /*Specifications for text p*/
     font-size: 1.2em;
-    margin-bottom: 20px;
 }
 
-.hero .cta {
-    background-color: #5995ED;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+.hero img { /*Specifications for image*/
+    margin: 160px 0px 155px 0px;
+    width: 600px;
+    height: auto;
+    border-radius: 15px;
 }
 
-.hero .cta:hover {
-    background-color: #BF7C84; 
-}
-
-.skills {
+.skills { /*Specifications for skills background*/
     background-color: #F6F0DF; 
-    padding: 50px 20px;
+    padding: 20px;
 }
 
-.skills h2 {
+.skills h2 { /*Specifications for skills text h2; "My Skills"*/
     font-size: 2em;
     margin-bottom: 10px;
     text-align: center;
 }
 
-.skills p {
+.skills p { /*Specifications for skills text p; the smaller sentence*/
     margin-bottom: 30px;
     text-align: center;
-    font-size:large;
+    font-size: large;
 }
 
-.skills h3 {
+.skills h3 { /*Specifications for skills text on top of card*/
     color: #f2f2f2;
 }
 
-.skills-grid {
+.skills-grid { /*Specifications for grid of cards*/
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
-    width: 100%;
     padding-bottom: 50px;
 }
 
-.card {
+.card { /*Specifications for cards*/
     perspective: 1000px; 
     height: 350px;
 }
 
-.card-inner {
-    position: relative;
+.card-inner { /*Specifications for flip effect*/
     width: 100%;
     height: 100%;
     text-align: center;
@@ -138,11 +121,11 @@ nav {
     transform-style: preserve-3d;
 }
 
-.card:hover .card-inner {
+.card:hover .card-inner { /*Specifications for flip effect when hovering*/
     transform: rotateY(180deg);
 }
 
-.card-front, .card-back {
+.card-front, .card-back { /*Specifications for front and back of card*/
     position: absolute;
     width: 100%;
     height: 100%;
@@ -156,16 +139,14 @@ nav {
     align-items: center;
 }
 
-.card-back {
+.card-back { /*Specifications for back of card with scrollbar*/
     transform: rotateY(180deg);
     overflow-y: auto;
     max-height: 100%;
 }
 
-.card-back ul {
-    list-style-type: none;
-    padding: 20px 10px; 
-    margin: 0;
+.card-back ul { /*Specifications for lists in the back of the card*/
+    padding: 20px; 
 }
 
 .card-back ul li {
