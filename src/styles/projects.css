@@ -44,7 +44,6 @@ nav {
     margin-bottom: 30px;
 }
 
-
 .projects-grid {
     display: flex;
     flex-wrap: wrap;
@@ -108,4 +107,5 @@ footer {
     padding: 5px;
     color: #333;
 }
+
 
