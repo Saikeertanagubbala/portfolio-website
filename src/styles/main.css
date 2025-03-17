@@ -13,8 +13,6 @@ body, html {
 }
 
 .sticky-nav { /*Specifications for navbar itself not buttons*/
-    position:fixed;
-    top:0;
     background-color: #344966; 
     width: 100%;
     padding: 5px 0;

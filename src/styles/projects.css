@@ -1,3 +1,4 @@
+/* Navbar styling */
 nav {
     background-color: #344966; 
     top: 0;
@@ -34,9 +35,10 @@ nav {
 }
 
 .projects-section {
-    padding: 50px 50px;
+    padding: 50px 20px;
     background-color: #F6F0DF;
     text-align: center;
+    position: relative;
 }
 
 .projects-section h2 {
@@ -44,21 +46,27 @@ nav {
     margin-bottom: 30px;
 }
 
+.projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 .projects-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
     gap: 20px;
-    max-width: 1200px; 
-    margin: 0 auto; 
+    justify-content: center;
 }
 
 .project-item {
-    flex: 1 1 calc(25% - 40px); 
-    max-width: 300px;
+    flex: 1 1 calc(40% - 40px);
+    max-width: 300px; 
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     padding: 20px;
     text-align: center;
     transition: transform 0.3s;
@@ -67,14 +75,13 @@ nav {
 .project-item img {
     width: 100%;
     border-radius: 10px;
-    margin-bottom: 15px;
-}
-
-.project-item h3 {
-    font-size: 1.4em;
     margin-bottom: 10px;
 }
 
+.project-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
 
 .project-item p {
     font-size: 0.9em;
@@ -98,7 +105,7 @@ nav {
 }
 
 .project-item:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
 }
 
 footer {
