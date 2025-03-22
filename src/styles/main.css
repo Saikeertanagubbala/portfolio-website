@@ -143,36 +143,19 @@ body, html {
     max-height: 100%;
 }
 
-.card-back ul { /*Specifications for lists in the back of the card*/
-    padding: 20px; 
-}
-
-.card-back ul li {
+.card-back ul li { /*More Specifications for lists in the back of the card*/
     margin-bottom: 5px;
     list-style-type: none;
     font-size: 1em;
     color: #f2f2f2;
 }
 
-.card-front h3 {
+.card-front h3 { /*Design for the front of card*/
     margin: 0;
     font-size: 1.5em;
     text-align: center;
 }
 
-.skills-content h3 {
-    margin-bottom: 10px;
-}
-
-.skills-content ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.skills-content ul li {
-    margin-bottom: 5px;
-    list-style-type: none;
-}
 
 /* About Section */
 .about {
@@ -182,13 +165,13 @@ body, html {
     margin-bottom: 50px;
 }
 
-.about h2 {
+.about h2 { /*Specifications for text h2; "About Me"*/
     font-size: 2em;
     margin-bottom: 15px;
 }
 
-.about p {
-    font-size:large;
+.about p { /*Specifications for text p; actual text*/
+    font-size: large;
     max-width: 850px;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -197,25 +180,25 @@ body, html {
 
 
 /* Projects Section */
-.projects {
+.projects { /*Specifications for projects background*/
     background-color: #F6F0DF;
     padding: 50px 20px;
     text-align: center;
 }
 
-.projects h2 {
+.projects h2 { /*Specifications for projects text h2; "Recent Projects"*/
     font-size: 2em;
     margin-bottom: 30px;
 }
 
-.projects-container {
+.projects-container { /*Specifications for each project box*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
 }
 
-.project-item {
+.project-item { /*Specifications for each project box*/
     flex: 1 1 calc(33.333% - 40px);
     max-width: 250px;
     background-color: #f2f2f2;
@@ -226,16 +209,16 @@ body, html {
     transition: transform 0.3s;
 }
 
-.project-item:hover {
+.project-item:hover { /*Effect when hovering over the project boxes*/
     transform: translateY(-10px);
 }
 
-.project-item h3 {
+.project-item h3 { /*Specifications for project text h3; title*/
     font-size: 1.2em;
     margin-bottom: 10px;
 }
 
-.project-item p {
+.project-item p { /*Specifications for project text p; description*/
     font-size: 0.9em;
     margin-bottom: 15px;
 }
@@ -262,6 +245,7 @@ body, html {
     font-size: 1em;
 }
 
+/* Contact Section */
 .contact{
     background-color: #F6F0DF;
     padding: 50px 20px;
@@ -276,7 +260,7 @@ body, html {
     gap: 20px;
 }
 
-.contact-link {
+.contact-link { 
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -284,29 +268,14 @@ body, html {
     transition: transform 0.3s, color 0.3s;
 }
 
-.contact-link img {
-    width: 30px; 
+.contact-link img { /*Specifications for contact link images*/
+    width: 35px; 
     height: auto;
     margin-right: 10px;
-    transition: transform 0.3s;
 }
 
-.contact-link span {
-    font-size: 1em;
-    transition: color 0.3s;
-    
-}
-
-.contact-link:hover {
-    transform: scale(1.1);
-    color: #5995ED;
-}
-
-.contact-link:hover img {
+.contact-link:hover { /*Effect when hovering over the contact links*/
     transform: scale(1.2);
-}
-
-.contact-link:hover span {
     color: #5995ED;
 }
 
