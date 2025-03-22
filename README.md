@@ -1,6 +1,6 @@
 # Sai Keertana Gubbala
 
-This is my simple 3-page portfolio website created to display my skills, and experience. Feel free to fork the repo and use it for your own purposes. Design was wireframed using Figma and layout inspiration from Pinterest. 
+This is my simple 2-page portfolio website created to display my skills, and experience. Feel free to fork the repo and use it for your own purposes. Design was wireframed using Figma and layout inspiration from Pinterest. 
 
 ## Getting Started
 
