@@ -61,14 +61,15 @@ nav {
 }
 
 .project-item {
-    flex: 1 1 calc(40% - 40px);
+    flex: 1 1 calc(40% - 40px); 
     max-width: 300px; 
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
     transition: transform 0.3s;
+    overflow: hidden; 
 }
 
 .project-item img {
@@ -86,9 +87,13 @@ nav {
     font-size: 0.9em;
     color: #555;
     margin-bottom: 15px;
+    max-height: 100px; 
+    overflow-y: auto; 
+    padding-right: 5px; 
 }
 
 .project-item a {
+    display: inline-block;
     padding: 6px 8px;
     background-color: #5995ED;
     color: white;
@@ -112,5 +117,6 @@ footer {
     padding: 5px;
     color: #333;
 }
+
 
 
